@@ -1,0 +1,622 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+  
+ 
+
+}
+.navbartop{
+    width: 100%;
+    height: 70px;
+    position:fixed;
+    top:0;
+    background-color: rgb(48, 46, 46);
+    padding:0px 60px;
+
+    
+    
+}
+.bar{
+    font-size: 25px;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: black;
+    z-index: 1;
+    padding:20px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+nav ul{ 
+float: right;
+margin-right:10px;
+
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  line-height: 80px;
+  
+}
+nav ul li a{
+    
+    color:rgb(158, 103, 21);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 7px 30px;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color:transparent;
+    border: 1px solid rgb(216, 208, 208);
+    border-radius: 5px;
+    transition: .5s;
+
+}
+.checkbtn{
+    float: right;
+    margin-right:40px;
+    cursor: pointer;
+    display: none;
+    padding: 2px;
+    margin-top: 25px;
+    position: fixed;
+    right: 0;
+}
+
+
+#check{
+    display: none;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    line-height: 80px;
+    border-radius: 50%;
+}
+.main{
+    width: 100%;
+    height:600px;
+    background: url(image/img/sidekix-media-McmcjgGk8uM-unsplash.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.centername{
+    width:100%;
+    height:600px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: rgb(231, 226, 226);
+    padding:275px 300px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+
+    font-weight: bold;
+    font-size: 25px;
+}
+.centername h1{
+    font-family: 'Aclonica', sans-serif;
+   
+}
+.centername h2{
+    font-size: 28px;
+}
+
+
+.work-section{
+    width: 100%;
+    padding:10px;
+    height: 600px;
+}
+.work-section h1{
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: 'Allison', cursive;
+    letter-spacing: 1px;
+    color: black;
+}
+.works{
+    float:left;
+    padding-left:30px;
+    padding-bottom: 30px;
+  
+    
+}
+.works1{
+    width:35%;
+    font-size: 20px;
+} 
+.works2{
+    padding-top: 100px;
+    width:65%;
+    
+}
+.card{
+    float: left;
+    margin-right:50px;
+   text-align: center;
+    border:2px solid rgb(158, 103, 21);
+    background-color:white;
+    color: rgb(158, 103, 21);  
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding:20px;
+    width:17rem;
+    border-radius: 3px;
+    
+}
+.line{
+    width:150px;
+    margin:20px 40px;
+
+}
+.card i{
+    font-size:50px;
+    margin-top:6px;
+}
+.card:hover{
+    color: white;
+    background-color:rgb(65, 63, 61); 
+}
+.card-section{
+    float:left;
+    padding:20px 20px 20px 100px;
+    
+    
+}
+
+.cardbox{
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+    border: none;
+    background:linear-gradient(rgb(250, 248, 250),rgb(134, 131, 134),rgb(5, 5, 5));
+    display: flex;
+
+}
+
+.cardbox img{
+    height: 150px;
+    width: 250px;
+    margin:100px 30px;
+    border:none;
+}
+.cardbox a{
+    background: linear-gradient(90deg, rgb(185, 137, 32) 0%, rgba(0, 0, 0, 1) 100%);
+ transition: all 0.8s ease-in-out;
+  height:50px;
+  margin-top:10px;
+    color:white;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius:25px;
+    transition: .3s ease;
+    width: 200px;
+    font-size: 20px;
+}
+.cardbox a:hover{
+    width: 250px;
+  
+}
+.cardbox i{
+    font-size: 20px;
+}
+.projects{
+    background-color: rgb(233, 231, 231);
+    margin:10px; 
+  border-radius: 3px;
+  padding: 30px;
+  
+}
+.img-card{
+    height: 200px;
+    width: 350px;
+    margin:30px;
+}
+.row{
+    display: flex; 
+    width: 100%;
+}
+.back{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+.back h2{
+    font-family: 'Allison', cursive;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.back a{
+    background: linear-gradient(90deg, rgb(185, 137, 32) 0%, rgba(0, 0, 0, 1) 100%);
+    transition: all 0.8s ease-in-out;
+   
+       color:white;
+       border: 2px solid black;
+       padding: 15px;
+       border-radius:25px;
+       width:300px;
+       font-size: 20px;
+       text-align:center;
+       margin-bottom: 30px;
+}
+
+.about-section{
+    width: 100%;
+    padding:50px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.about-section h2{
+    font-size: 50px;
+    font-family: 'Allison', cursive;
+    text-transform: capitalize;
+}
+.inner-container{
+    margin-left:300px;
+    margin-right: 50px;
+    
+}
+.about-section img{
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 15%;
+}
+
+
+.connect{
+
+    background-color:rgb(17, 17, 17);
+    color:white;
+    width: 100%;
+    padding-top: 20px;
+    
+    
+}
+.connect-inner{
+    display: flex;
+}
+.content2{
+    margin-top: 30px;
+    margin-left:100px;
+}
+.heading{
+    font-size: 50px;
+    font-family: 'Allison', cursive;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.line2{
+    margin:100px 500px 10px 500px;
+}
+.connect-icons{
+    margin:100px;
+}
+.connect-icons i{
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.inner-container h2{
+    text-align: center;
+}
+.line3{
+    margin:0px 100px;
+}
+
+
+
+@media screen and (max-width:1200px)
+{
+    nav ul li a{
+        font-size: 16px;
+        padding: 4px 15px;
+    }
+    .line2{
+        margin: 0px 250px;
+      }
+    
+      .main{
+          height:500px
+      }   
+      .centername{
+        height:500px;
+        padding:250px 150px;
+        font-size: 20px;
+    }
+    .works{
+        float: none;
+    }
+    .works1{
+        width:100%;
+    }
+    .works2{
+        width: 100%;
+    }
+    .card{
+        margin-right:50px;      
+        
+        padding:20px;
+        width:16rem;
+        border-radius: 3px;
+        
+    }
+    .card-section{
+        padding:20px 50px;
+        
+        
+    }
+    .line{
+        width:200px;
+        margin:20px;
+    
+    }
+    .cardbox img{
+        height: 150px;
+        width: 250px;
+        margin:100px 10px;
+    }
+    .cardbox a{
+        width:150px;
+        font-size: 15px;
+    }
+    .img1{
+        display: none;
+    }
+    .about-section{
+        width: 100%;
+        font-size: 18px;
+    
+    }
+    .inner-container{
+        margin-left:100px;
+        margin-right: 30px;
+        
+    }
+    .about-section img{
+        margin-left: 50px;
+        margin-top: 50px;
+        border-radius: 15%;
+    }
+}
+    
+@media screen and (max-width: 858px){
+    .checkbtn{
+        display: block;
+        
+    }
+    nav img{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.8);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        transition: .5s;
+
+    }
+    nav ul li a{
+        font-size: 20px;
+        color: white;
+        
+
+    }
+    nav ul li a:hover{
+        background:none;
+        color:rgb(185, 137, 32);
+        border: none;
+        transition: .2s;
+    }
+    .centername{
+        padding:250px 100px;
+        font-size: 18px;
+    }
+
+    .works2{
+        margin-right:200px;
+    }
+    .card{
+        font-size: 15px;
+        margin-right:50px;      
+        padding:20px;
+        width:15rem;
+        border-radius: 3px;
+        
+    }
+    .card-section{
+        padding:20px 30px;
+        
+        
+    }
+    .line{
+        width:200px;
+        margin:20px;
+    
+    }
+    .card i{
+        font-size:40px;
+    
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .btn{
+        margin: 10px auto;
+    }
+    .cardbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardbox img{
+        margin:20px 0px;
+    }
+    
+    .line2{
+       margin:10px 200px;
+      }   
+     .about-section{
+        flex-direction: column;
+        padding-top: 30px;
+        font-size: 18px;
+        padding-left:30px;
+        padding-bottom: 20px;
+    }
+    .inner-container{
+        
+        width:100%;
+        margin-left:10px;
+        padding:5px 30px;
+        color:black;
+        
+    }
+    .content2{
+    
+        margin-left:50px;
+    }
+    
+}
+
+@media screen and (max-width: 500px)
+{
+    nav img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .cardbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        height:400px;
+    
+        
+    }
+    .centername{
+        height: 400px;
+        padding:200px 50px;
+        font-size: 12px;
+    }
+    .centername h2{
+        font-size: 15px;
+    }
+    .works1{
+        font-size: 17px;
+    }
+    
+    .card{
+        font-size: 15px;      
+        width:14rem;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        
+    }
+    .line{
+        width:150px;
+        margin:20px;
+    
+    }
+    .card i{
+        font-size:40px;
+    
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .cardbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .line2{
+       margin:10px 50px;
+      }   
+   .connect-inner{
+       flex-direction: column;
+   }
+   .projects{ 
+  padding:30px 10px;
+  
+}
+.img-card{
+    height: 150px;
+    width: 300px;
+    margin:15px;
+}
+.row{
+    flex-direction: column; 
+    
+}
+.back{
+    padding: 20px;
+}
+.back h2{
+    font-size: 40px;
+}
+.back a{
+    margin-top: 20px;
+       padding: 10px;
+       width:50px;
+       font-size:15px;
+       
+}
+.about-section{
+    padding:20px;
+    font-size: 18px;
+
+}
+.about-section img{
+    margin-left:40px;
+}
+.heading{
+    font-size: 30px;
+    
+    margin-bottom: 10px;
+}
+.line3{
+    margin: 0px 50px;
+}
+}
